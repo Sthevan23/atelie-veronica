@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <!-- Motivo: 4 corações unidos no centro (do material da marca) -->
+    <path d="M40 28c0-5 4-9 9-9 3.5 0 6.5 2.2 8 5.5C55.5 21.2 52.5 19 49 19c-5 0-9 4-9 9z"/>
+    <path d="M40 28c0-5-4-9-9-9-3.5 0-6.5 2.2-8 5.5C24.5 21.2 27.5 19 31 19c5 0 9 4 9 9z"/>
+    <path d="M40 52c0 5 4 9 9 9 3.5 0 6.5-2.2 8-5.5C55.5 58.8 52.5 61 49 61c-5 0-9-4-9-9z"/>
+    <path d="M40 52c0 5-4 9-9 9-3.5 0-6.5-2.2-8-5.5C24.5 58.8 27.5 61 31 61c5 0 9-4 9-9z"/>
+    <path d="M40 40c-6-8-14-8-14 0 0 5 5 9 14 16 9-7 14-11 14-16 0-8-8-8-14 0z" transform="translate(0 -12) scale(0.55) translate(36.5 55)"/>
+  </g>
+</svg>

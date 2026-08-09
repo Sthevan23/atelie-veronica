@@ -1,0 +1,21 @@
+# Segredos / ambiente local
+api/config.local.php
+api/CONEXAO_HOSTINGER.txt
+.env
+.env.*
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Pacotes de deploy locais
+*.zip
+
+# Lixo de reparo / dumps pesados
+api/repair_photos_data.json
+api/repair_photos.php
+api/repair_orphan_images.php
+api/enable_admin_photos.php

@@ -398,13 +398,9 @@ const Storage = (() => {
     return { ok: false, error: 'api_offline' };
   }
 
-  function startCloudPolling(intervalMs = 5000) {
+  function startCloudPolling() {
+    // OFF — Hostinger: cada pullFull() come processo (limite 120 da conta)
     stopCloudPolling();
-    if (!getAdminPassword()) return;
-    pollTimer = setInterval(() => {
-      if (pushBusy) return;
-      pullFull();
-    }, intervalMs);
   }
 
   function stopCloudPolling() {
@@ -414,11 +410,9 @@ const Storage = (() => {
     }
   }
 
-  function startPublicPolling(intervalMs = 12000) {
+  function startPublicPolling() {
+    // OFF — site público não deve martelar data.php
     stopPublicPolling();
-    publicPollTimer = setInterval(() => {
-      pullPublic().catch(() => {});
-    }, intervalMs);
   }
 
   function stopPublicPolling() {
